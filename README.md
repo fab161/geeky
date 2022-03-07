@@ -13,3 +13,4 @@ At the moment:
     - to launch the script:
     'wget https://raw.githubusercontent.com/FabTheGithubUser/geeky/main/MX_21-remove-nonfree.sh'
    --> 'bash MX_21-remove-nonfree.sh'
+- Trisquel-Red is the new version of the Trisquel GTK theme with red accents
