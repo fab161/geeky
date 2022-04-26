@@ -16,8 +16,11 @@ bash $(echo 00-backup)
 bash $(echo 03-install-flatpaks)
 bash $(echo 04-remove-snaps)
 bash $(echo 99-remove-snapd)
+sudo apt install gnome-software --no-install-recommends
+sudo apt install gnome-software-plugin-flatpak
+sudo apt autoremove --purge
 echo "-----------------------------------------------"
-echo "The script finished. You may want to reboot your machine. In the script file are many terminal commands for example to install Flatseal (Flatpak management) or other web browsers (Firefox is now a flatpak)."
+echo "The script finished. You may want to reboot your machine now. In the script file are many terminal commands for example to install Flatseal (Flatpak management) or other web browsers (Firefox is now a flatpak)."
 echo "Congrats! ;)"
 echo "-----------------------------------------------"
 # -----------------------------------------------
